@@ -1,0 +1,1584 @@
+{
+	"info": {
+		"_postman_id": "c2de764d-3db7-4dcf-b8e7-45d8d161251c",
+		"name": "DarsApp Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "quize",
+			"item": [
+				{
+					"name": "teacher create quize",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quiz_text\": \"{'q1':  { 'text': 'Who is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/quiz",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"quiz"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get one quiz",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/quiz/26",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"quiz",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get all self quizzes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{teacher_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/quiz",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"quiz"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher update quiz",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "fa"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quiz_text\": \"{'q1':  { 'text': 'Whoss is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/quiz/20",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"quiz",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher delete quiz",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/quiz/23",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"quiz",
+								"23"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "scores",
+			"item": [
+				{
+					"name": "teacher create score for class 4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_meeting\": 1, \n\"quiz\": 1,\n\"student\": 3, \n\"score\": 0.123}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/1/score",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"1",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get class score list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/4/score",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"4",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student get class score list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{student_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/student/4/score",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"student",
+								"4",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get class score list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/4/score",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"4",
+								"score"
+							],
+							"query": [
+								{
+									"key": "from_date",
+									"value": "2020-10-15T16:33:00Z",
+									"disabled": true
+								},
+								{
+									"key": "to_date",
+									"value": "2020-10-16T15:58:19Z",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "alternative api for manager get class score list for response time improvement",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/4/score2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"4",
+								"score2"
+							],
+							"query": [
+								{
+									"key": "from_date",
+									"value": "2020-10-15T16:33:00Z",
+									"disabled": true
+								},
+								{
+									"key": "to_date",
+									"value": "2020-10-16T15:58:19Z",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "exam",
+			"item": [
+				{
+					"name": "manager get all exams",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/exam",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"exam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get all self exams",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/exam",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"exam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student get all self exams",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{student_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/student/exam",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"student",
+								"exam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager create exam",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"class_id\": 2, \n    \"lesson_id\": 8,\n    \"datetime\": \"2021-10-22 12:00:00\",\n    \"duration\": 120,\n    \"class_type\": \"O\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/exam",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"exam"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager delete exam",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/exam/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"exam",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager update exam",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "fa"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"class_id\": 1,\n        \"lesson_id\": 2,\n        \"datetime\": \"2021-10-21T12:00:00Z\",\n        \"duration\": 120,\n        \"class_type\": \"O\",\n        \"done\": false\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/exam/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"exam",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Presence",
+			"item": [
+				{
+					"name": "teacher create presence sheet for classmeeting",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/class-meeting-sheet/7",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"class-meeting-sheet",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher patch (enter) presence sheet for classmeeting",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/class-meeting-sheet/7/entrance-presence/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"class-meeting-sheet",
+								"7",
+								"entrance-presence",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher patch (verify) presence sheet for classmeeting",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/class-meeting-sheet/7/verify-presence/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"class-meeting-sheet",
+								"7",
+								"verify-presence",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get presence absence for all her/his students in a class",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/4/presence-absence",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"4",
+								"presence-absence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student get all his/her presence absence for a class",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{student_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/student/4/presence-absence",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"student",
+								"4",
+								"presence-absence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager/admin get all presence absence for a class",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/4/presence-absence?from_date=2020-10-15T18:39:36Z&to_date=2020-10-15T19:02:49Z",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"4",
+								"presence-absence"
+							],
+							"query": [
+								{
+									"key": "from_date",
+									"value": "2020-10-15T18:39:36Z"
+								},
+								{
+									"key": "to_date",
+									"value": "2020-10-15T19:02:49Z"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "homework",
+			"item": [
+				{
+					"name": "teacher delete homework",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/homework/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"homework",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher update homework",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "fa"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"lesson_id\": 8,\n    \"deadline\": \"2021-10-22 12:00:00\",\n    \"description\": \"Solve some of the problems\",\n    \"file\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/homework/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"homework",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher post homework",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"class_id\": 4, \n    \"lesson_id\": 8,\n    \"deadline\": \"2021-10-22 12:00:00\",\n    \"description\": \"solve all the problems\",\n    \"file\": \"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/homework",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"homework"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get homeworks",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/homework",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"homework"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student send homeworks responses",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{student_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"file\": \"aa/aa/ab\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/student/response-homework/11",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"student",
+								"response-homework",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student get homeworks responses for a class",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{student_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/student/4/homework",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"student",
+								"4",
+								"homework"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get homeworks responses",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/teacher/4/homework",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"4",
+								"homework"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get homeworks responses",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/4/homework",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"4",
+								"homework"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "teacher timeline",
+			"item": [
+				{
+					"name": "manager create teacher time line [list or object]",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[ {\n    \"day_of_week\": 1,\n    \"start_time\": \"08:00\",\n    \"end_time\": \"18:00\",\n    \"online\": false\n}]\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_times/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_times",
+								"2"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_times/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_times",
+								"2"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager delete teacher availability times",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_times/2/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_times",
+								"2",
+								"3"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager update teacher availability times Copy",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teacher_id\": 4,\n    \"day_of_week\": 3,\n    \"start_time\": \"09:00\",\n    \"end_time\": \"10:00\",\n    \"online\": true,\n    \"verified\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_times/2/4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_times",
+								"2",
+								"4"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher reserved section times",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_times/section_reserved/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_times",
+								"section_reserved",
+								"2"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get self availability times",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/times",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"times"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher get self section reserved times",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/times/section_reserved",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"times",
+								"section_reserved"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teacher verify timeline availability",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{teacher_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/teacher/times/7",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"teacher",
+								"times",
+								"7"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "teacher lessons",
+			"item": [
+				{
+					"name": "manager create teacher lessons [list or object]",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"teacher_id\": 2,\n        \"lesson_id\": 6\n    },\n    {\n        \"teacher_id\": 2,\n        \"lesson_id\": 7\n    }\n]\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager delete teacher lessons",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons",
+								"5"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times (filter by teacher)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons?teacher_id=2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "teacher_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times (filter by lesson)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons?lesson_id=6",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "lesson_id",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times (filter by time)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons?day_of_week=1&start_time=8:00&end_time=12:00",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "day_of_week",
+									"value": "1"
+								},
+								{
+									"key": "start_time",
+									"value": "8:00"
+								},
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "end_time",
+									"value": "12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "manager get teacher availability times (filter by time) test 2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{manager_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/manager/teacher_lessons?day_of_week=1&end_time=12:00&start_time=10:30",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"manager",
+								"teacher_lessons"
+							],
+							"query": [
+								{
+									"key": "day_of_week",
+									"value": "1"
+								},
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "end_time",
+									"value": "12:00"
+								},
+								{
+									"key": "start_time",
+									"value": "10:30"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "server test (time)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/time",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"time"
+					]
+				},
+				"description": "respons is \"now\" time for deploy test"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

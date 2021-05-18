@@ -1,0 +1,615 @@
+{
+	"info": {
+		"_postman_id": "7d607dd3-2c5b-472e-b1f3-d6532b75ff13",
+		"name": "DarsApp Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "quize",
+			"item": [
+				{
+					"name": "post quiz",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quiz_text\": \"{'q1':  { 'text': 'Who is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/quiz",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"quiz"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "test post to quiz"
+					},
+					"response": []
+				},
+				{
+					"name": "get one quiz",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/quiz/1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"quiz",
+								"1"
+							]
+						},
+						"description": "get one quiz"
+					},
+					"response": []
+				},
+				{
+					"name": "get all quizzes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/quiz",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"quiz"
+							]
+						},
+						"description": "get to quizzes"
+					},
+					"response": []
+				},
+				{
+					"name": "update quiz",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "sdfsdf",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "fa",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"quiz_text\": \"{'q1':  { 'text': 'Whoss is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/quiz/1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"quiz",
+								"1"
+							]
+						},
+						"description": "update quiz"
+					},
+					"response": []
+				},
+				{
+					"name": "delete quiz",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/quiz/22",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"quiz",
+								"22"
+							]
+						},
+						"description": "delete from quiz"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "scores",
+			"item": [
+				{
+					"name": "create score for class 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_meeting_id\": 74, \n\"quiz_id\": 1,\n\"student_id\": 3, \n\"score\": 0.5}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/4/score",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"4",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create score for class 7",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_meeting_id\": 43, \n\"quiz_id\": 1,\n\"student_id\": 3, \n\"score\": 0.75}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/7/score",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"7",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create score for class 9",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_meeting_id\": 52, \n\"quiz_id\": 1,\n\"student_id\": 3, \n\"score\": 0.75}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/9/score",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"9",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get teacher score list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/4/score",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"4",
+								"score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get teacher score list Copy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/manager/4/score",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"manager",
+								"4",
+								"score"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "exam",
+			"item": [
+				{
+					"name": "get all exams",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/manager/exam",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"manager",
+								"exam"
+							]
+						},
+						"description": "get to quizzes"
+					},
+					"response": []
+				},
+				{
+					"name": "get all exams teacher",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/teacher/exam",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"teacher",
+								"exam"
+							]
+						},
+						"description": "get to quizzes"
+					},
+					"response": []
+				},
+				{
+					"name": "post exam",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"class_id\": 1, \n    \"lesson_id\": 288,\n    \"datetime\": \"2021-10-21 12:00:00\",\n    \"duration\": 120,\n    \"class_type\": \"O\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/manager/exam",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"manager",
+								"exam"
+							],
+							"query": [
+								{
+									"key": "data",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "test post to quiz"
+					},
+					"response": []
+				},
+				{
+					"name": "delete exam",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							}
+						],
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/manager/exam/4",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"manager",
+								"exam",
+								"4"
+							]
+						},
+						"description": "delete from quiz"
+					},
+					"response": []
+				},
+				{
+					"name": "update exam",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "fa"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"class_id\": 9, \n    \"lesson_id\": 228,\n    \"datetime\": \"2031-10-21 19:00:00\",\n    \"duration\": 120,\n    \"class_type\": \"O\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/django/manager/exam/5",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"django",
+								"manager",
+								"exam",
+								"5"
+							]
+						},
+						"description": "update quiz"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "server test (time)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzcwMDMyNDIxIiwiZXhwIjoxNjAzNzI1ODEwLCJpYXQiOjE2MDMwMzQ2MTB9.oX6REnb0jo_iXv7YxVfy2c4gM8faLgz415EfRtn5ZNRD8xKQTl4vbydLrJLE7FjuaXTUxgzEEpYCCFpj49N_eQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:8000/api/django/time?",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"django",
+						"time"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				},
+				"description": "respons is \"now\" time for deploy test"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

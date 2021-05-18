@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <script src="https://sr.darsapp.me/highcharts/highcharts.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/exporting.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/export-data.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/accessibility.js"></script>
+</head>
+
+
+<body>
+    <script>
+        window.onload = function (event) {
+        // $(document).ready(function() {
+            Highcharts.chart('container', {
+  chart: {
+    type: "{{report.plot_type}}"
+  },
+  title: {
+    text: "{{report.title}}"
+  },
+  xAxis: {
+    categories: JSON.parse("{{report.dates | safe}}".replace(/'/g,"\"")),
+    crosshair: true
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'تعداد دانش آموز'
+    }
+  },
+  tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+      '<td style="padding:0"><b>{point.y:.1f} نفر</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+  },
+  plotOptions: {
+    column: {
+      pointPadding: 0.2,
+      borderWidth: 0
+    }
+  },
+  series: JSON.parse("{{report.data | safe}}".replace(/'/g,"\""))
+});
+        };
+    </script>
+    <!-- <figure class="highcharts-figure"> -->
+        <div id="container"></div>
+    <!-- </figure> -->
+
+</body>
+</html>

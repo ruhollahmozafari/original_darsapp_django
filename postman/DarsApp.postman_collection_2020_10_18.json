@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "847af9a6-20d7-4d26-bfa9-fdca075f03e9",
+		"name": "DarsApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "server test (time)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/django/time",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"django",
+						"time"
+					]
+				},
+				"description": "respons is \"now\" time for deploy test"
+			},
+			"response": []
+		},
+		{
+			"name": "post quiz",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/django/teacher/quiz?data={'teacher_id': 10, \n'quiz_text': \"{'q1':  { 'text': 'Who is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"}",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"django",
+						"teacher",
+						"quiz"
+					],
+					"query": [
+						{
+							"key": "data",
+							"value": "{'teacher_id': 10, \n'quiz_text': \"{'q1':  { 'text': 'Who is the boss?',  'choices': {'1': 'Im the boos', '2': 'boss'}, 'true': '1', 'file': '' }, 'q2':  { 'text': 'the answer to life the universe and everything?',  'choices': {'1': '1', '2': '2', '3': '3', '4': '42'}, 'true': '1', 'file': '' } }\"}"
+						}
+					]
+				},
+				"description": "test post to quiz"
+			},
+			"response": []
+		},
+		{
+			"name": "get all quizzes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "get to quizzes"
+			},
+			"response": []
+		},
+		{
+			"name": "get one quiz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "get one quiz"
+			},
+			"response": []
+		},
+		{
+			"name": "update quiz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "update quiz"
+			},
+			"response": []
+		},
+		{
+			"name": "delete quiz",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/django/teacher/quiz/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"django",
+						"teacher",
+						"quiz",
+						"2"
+					]
+				},
+				"description": "delete from quiz"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

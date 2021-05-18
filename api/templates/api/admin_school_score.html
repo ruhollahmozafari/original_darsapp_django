@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <script src="https://sr.darsapp.me/highcharts/highcharts.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/exporting.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/export-data.js"></script>
+    <script src="https://sr.darsapp.me/highcharts/modules/accessibility.js"></script>
+</head>
+
+
+<body>
+    <script>
+        window.onload = function (event) {
+        // $(document).ready(function() {
+Highcharts.chart('container', {
+  chart: {
+    type: "{{report.plot_type}}"
+  },
+  title: {
+    text: "{{report.title}}"
+  },
+  xAxis: {
+    categories: JSON.parse("{{report.dates | safe}}".replace(/'/g,"\""))
+  },
+  yAxis: {
+    title: {
+      text: 'نمره'
+    }
+  },
+  legend: {
+        title: {
+            text: 'دانش‌آموزان'
+        },
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'top'
+    },
+    tooltip: {
+        enabled: true
+    },
+  plotOptions: {
+    line: {
+      dataLabels: {
+        enabled: true
+      },
+      enableMouseTracking: true
+    }
+  },
+  series: JSON.parse("{{report.data | safe}}".replace(/'/g,"\""))
+});
+        };
+    </script>
+    <!-- <figure class="highcharts-figure"> -->
+        <div id="container"></div>
+    <!-- </figure> -->
+
+</body>
+</html>

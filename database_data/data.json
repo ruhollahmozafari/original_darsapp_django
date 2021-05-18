@@ -1,0 +1,4510 @@
+[
+    {
+        "model": "api.action",
+        "pk": 1,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-1",
+            "name": "users",
+            "title": "\u0645\u0634\u0627\u0647\u062f\u0647 \u06a9\u0644 \u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 2,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-2",
+            "name": "create_user",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0627\u0631\u0628\u0631 \u062c\u062f\u06cc\u062f",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 3,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-3",
+            "name": "create_users",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 4,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-4",
+            "name": "edit_user",
+            "title": "\u0648\u06cc\u0631\u0627\u06cc\u0634 \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u06a9\u0627\u0631\u0628\u0631",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 5,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-5",
+            "name": "delete_user",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 6,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a2-6",
+            "name": "set_user_state",
+            "title": "\u062a\u0639\u06cc\u06cc\u0646 \u0648\u0636\u0639\u06cc\u062a \u06a9\u0627\u0631\u0628\u0631",
+            "actions_group_id": 2,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 7,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a3-1",
+            "name": "roles",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u0646\u0642\u0634 \u0647\u0627",
+            "actions_group_id": 3,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 8,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a3-2",
+            "name": "create_role",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u0646\u0642\u0634 \u062c\u062f\u06cc\u062f",
+            "actions_group_id": 3,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 9,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a4-1",
+            "name": "levels",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u067e\u0627\u06cc\u0647 \u0647\u0627",
+            "actions_group_id": 4,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 10,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a4-2",
+            "name": "create_level",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u067e\u0627\u06cc\u0647 \u062c\u062f\u06cc\u062f",
+            "actions_group_id": 4,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 11,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a5-1",
+            "name": "lessons",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0631\u0633 \u0647\u0627",
+            "actions_group_id": 5,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 12,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a5-2",
+            "name": "create_lessons",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u062f\u0631\u0633 \u062c\u062f\u06cc\u062f",
+            "actions_group_id": 5,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 13,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a6-1",
+            "name": "classes",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0644\u0627\u0633 \u0647\u0627",
+            "actions_group_id": 6,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 14,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a6-2",
+            "name": "create_class",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0644\u0627\u0633 \u062c\u062f\u06cc\u062f",
+            "actions_group_id": 6,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 15,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a7-1",
+            "name": "reports",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06af\u0632\u0627\u0631\u0634 \u0647\u0627",
+            "actions_group_id": 7,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 16,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a7-2",
+            "name": "view_attendance",
+            "title": "\u0645\u0634\u0627\u0647\u062f\u0647 \u062d\u0636\u0648\u0631 \u0648 \u063a\u06cc\u0627\u0628",
+            "actions_group_id": 7,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 17,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a7-3",
+            "name": "view_scores",
+            "title": "\u0645\u0634\u0627\u0647\u062f\u0647 \u0646\u0645\u0631\u0627\u062a",
+            "actions_group_id": 7,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.action",
+        "pk": 18,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "a7-4",
+            "name": "view_exams",
+            "title": "\u0645\u0634\u0627\u0647\u062f\u0647 \u0627\u0645\u062a\u062d\u0627\u0646\u0627\u062a",
+            "actions_group_id": 7,
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 2,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "user_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0627\u0631\u0628\u0631",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 3,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "role_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u0646\u0642\u0634",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 4,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "level_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u067e\u0627\u06cc\u0647",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 5,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "lesson_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0631\u0633",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 6,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "class_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0644\u0627\u0633",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 7,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "report_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06af\u0632\u0627\u0631\u0634",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroup",
+        "pk": 8,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "name": "school_management",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062f\u0631\u0633\u0647",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 1,
+        "fields": {
+            "actions_group": 2,
+            "actions": 1,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 2,
+        "fields": {
+            "actions_group": 2,
+            "actions": 2,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 3,
+        "fields": {
+            "actions_group": 2,
+            "actions": 3,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 4,
+        "fields": {
+            "actions_group": 2,
+            "actions": 4,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 5,
+        "fields": {
+            "actions_group": 2,
+            "actions": 5,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 6,
+        "fields": {
+            "actions_group": 2,
+            "actions": 6,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 7,
+        "fields": {
+            "actions_group": 3,
+            "actions": 7,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 8,
+        "fields": {
+            "actions_group": 3,
+            "actions": 8,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 9,
+        "fields": {
+            "actions_group": 4,
+            "actions": 9,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 10,
+        "fields": {
+            "actions_group": 4,
+            "actions": 10,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 11,
+        "fields": {
+            "actions_group": 5,
+            "actions": 11,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 12,
+        "fields": {
+            "actions_group": 5,
+            "actions": 12,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 13,
+        "fields": {
+            "actions_group": 6,
+            "actions": 13,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 14,
+        "fields": {
+            "actions_group": 6,
+            "actions": 14,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 15,
+        "fields": {
+            "actions_group": 7,
+            "actions": 15,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 16,
+        "fields": {
+            "actions_group": 7,
+            "actions": 16,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 17,
+        "fields": {
+            "actions_group": 7,
+            "actions": 17,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.actionsgroupactions",
+        "pk": 18,
+        "fields": {
+            "actions_group": 7,
+            "actions": 18,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 1,
+            "class_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "date": "2020-09-29T13:21:36Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "level": 10,
+            "room_id": 676823,
+            "school_id": 1,
+            "section_id": 1,
+            "sky_url": null,
+            "started_time": "13:21:36",
+            "teacher_id": 3,
+            "token": "cgoRCOLzHUlgGqojIvtn"
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 2,
+            "class_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "date": "2020-09-30T10:18:08Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "level": 12,
+            "room_id": 681246,
+            "school_id": 1,
+            "section_id": 2,
+            "sky_url": null,
+            "started_time": "10:18:07",
+            "teacher_id": 3,
+            "token": "WinrhRCvdcahBKqLcSoz"
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 3,
+            "class_name": "\u0647\u0646\u0631",
+            "date": "2020-09-30T10:23:21Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0647\u0646\u0631",
+            "level": 12,
+            "room_id": 681348,
+            "school_id": 1,
+            "section_id": 4,
+            "sky_url": null,
+            "started_time": "10:23:20",
+            "teacher_id": 7,
+            "token": "SfNrVtDADdZkKrDNtogT"
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 4,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 2,
+            "class_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "date": "2020-09-30T16:02:12Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "level": 12,
+            "room_id": 684109,
+            "school_id": 1,
+            "section_id": 3,
+            "sky_url": null,
+            "started_time": "16:02:11",
+            "teacher_id": 3,
+            "token": "uVwwgTliLDMtOhUsCpRS"
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 5,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 3,
+            "class_name": "\u0647\u0646\u0631",
+            "date": "2020-10-03T16:20:45Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0647\u0646\u0631",
+            "level": 12,
+            "room_id": 695477,
+            "school_id": 1,
+            "section_id": 4,
+            "sky_url": null,
+            "started_time": "16:20:44",
+            "teacher_id": 7,
+            "token": "rYQQfEOlLYxWMYDIRhZr"
+        }
+    },
+    {
+        "model": "api.classmeeting",
+        "pk": 6,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 3,
+            "class_name": "\u0647\u0646\u0631",
+            "date": "2020-10-04T13:35:12Z",
+            "degree": 3,
+            "ended": "b'\\x00'",
+            "ended_time": null,
+            "lesson_name": "\u0647\u0646\u0631",
+            "level": 12,
+            "room_id": 701928,
+            "school_id": 1,
+            "section_id": 4,
+            "sky_url": null,
+            "started_time": "13:35:12",
+            "teacher_id": 7,
+            "token": "WJjHZqOKPiUOZECgYjXX"
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 1,
+        "fields": {
+            "class_meeting": 1,
+            "students": 4
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 2,
+        "fields": {
+            "class_meeting": 2,
+            "students": 5
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 3,
+        "fields": {
+            "class_meeting": 3,
+            "students": 6
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 4,
+        "fields": {
+            "class_meeting": 4,
+            "students": 5
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 5,
+        "fields": {
+            "class_meeting": 5,
+            "students": 6
+        }
+    },
+    {
+        "model": "api.classmeetingstudents",
+        "pk": 6,
+        "fields": {
+            "class_meeting": 6,
+            "students": 6
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x01'",
+            "modified_by_user": null,
+            "break_duration": 20,
+            "capacity": 12,
+            "degree": 3,
+            "field": null,
+            "level": 10,
+            "name": "101",
+            "schedule": 1,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 120,
+            "start_time": "08:30"
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "break_duration": 15,
+            "capacity": 20,
+            "degree": 3,
+            "field": null,
+            "level": 12,
+            "name": "\u0635\u0646\u0648\u0628\u0631",
+            "schedule": 2,
+            "school_id": 1,
+            "section_count": 2,
+            "section_duration": 90,
+            "start_time": "08:30"
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "break_duration": 20,
+            "capacity": 12,
+            "degree": 3,
+            "field": null,
+            "level": 12,
+            "name": "666",
+            "schedule": 3,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 120,
+            "start_time": "08:30"
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 4,
+        "fields": {
+            "created_by_user": null,
+            "deleted": null,
+            "modified_by_user": null,
+            "break_duration": 10,
+            "capacity": 10,
+            "degree": 3,
+            "field": 3,
+            "level": 12,
+            "name": "121",
+            "schedule": 1,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 50,
+            "start_time": "09:00"
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 5,
+        "fields": {
+            "created_by_user": null,
+            "deleted": null,
+            "modified_by_user": null,
+            "break_duration": 10,
+            "capacity": 10,
+            "degree": 3,
+            "field": 3,
+            "level": 12,
+            "name": "122",
+            "schedule": 1,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 50,
+            "start_time": "09:00"
+        }
+    },
+    {
+        "model": "api.classroom",
+        "pk": 6,
+        "fields": {
+            "created_by_user": null,
+            "deleted": null,
+            "modified_by_user": null,
+            "break_duration": 10,
+            "capacity": 10,
+            "degree": 3,
+            "field": 3,
+            "level": 12,
+            "name": "123",
+            "schedule": 1,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 50,
+            "start_time": "09:00"
+        }
+    },
+    {
+        "model": "api.classroomstudents",
+        "pk": 1,
+        "fields": {
+            "classroom": 1,
+            "students": 4
+        }
+    },
+    {
+        "model": "api.classroomstudents",
+        "pk": 2,
+        "fields": {
+            "classroom": 2,
+            "students": 5
+        }
+    },
+    {
+        "model": "api.classroomstudents",
+        "pk": 3,
+        "fields": {
+            "classroom": 3,
+            "students": 6
+        }
+    },
+    {
+        "model": "api.lesson",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "school_id": null,
+            "code": null,
+            "course_unit": 2,
+            "degree": 3,
+            "field": null,
+            "gender": 3,
+            "level": 10,
+            "name": "\u0631\u06cc\u0627\u0636\u06cc",
+            "state": 1,
+            "time_in_week": 12
+        }
+    },
+    {
+        "model": "api.lesson",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "school_id": null,
+            "code": null,
+            "course_unit": 1,
+            "degree": 3,
+            "field": null,
+            "gender": 3,
+            "level": 12,
+            "name": "\u0647\u0646\u0631",
+            "state": 1,
+            "time_in_week": 2
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 1,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m1",
+            "name": "menu01",
+            "title": "\u062f\u0627\u0634\u0628\u0648\u0631\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 2,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m2",
+            "name": "menu02",
+            "title": "\u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 3,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m2-1",
+            "name": "menu02-1",
+            "title": "\u06a9\u0644 \u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 4,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m2-2",
+            "name": "menu02-2",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0627\u0631\u0628\u0631 \u062c\u062f\u06cc\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 5,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m2-3",
+            "name": "menu02-3",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0627\u0631\u0628\u0631\u0627\u0646",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 6,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m3",
+            "name": "menu03",
+            "title": "\u0646\u0642\u0634 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 7,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m3-1",
+            "name": "menu03-1",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u0646\u0642\u0634 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 8,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m3-2",
+            "name": "menu03-2",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u0646\u0642\u0634 \u062c\u062f\u06cc\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 9,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m4",
+            "name": "menu04",
+            "title": "\u067e\u0627\u06cc\u0647 \u0647\u0627\u06cc \u062a\u062d\u0635\u06cc\u0644\u06cc",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 10,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m4-1",
+            "name": "menu04-1",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u067e\u0627\u06cc\u0647 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 11,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m4-2",
+            "name": "menu04-2",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u067e\u0627\u06cc\u0647 \u062c\u062f\u06cc\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 12,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m5",
+            "name": "menu05",
+            "title": "\u062f\u0631\u0633 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 13,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m5-1",
+            "name": "menu05-1",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0631\u0633 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 14,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m5-2",
+            "name": "menu05-2",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u062f\u0631\u0633 \u062c\u062f\u06cc\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 15,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m6",
+            "name": "menu06",
+            "title": "\u06a9\u0644\u0627\u0633 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 16,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m6-1",
+            "name": "menu06-1",
+            "title": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0644\u0627\u0633 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 17,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m6-2",
+            "name": "menu06-2",
+            "title": "\u0627\u0641\u0632\u0648\u062f\u0646 \u06a9\u0644\u0627\u0633 \u062c\u062f\u06cc\u062f",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 18,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m6-3",
+            "name": "menu06-3",
+            "title": "\u0634\u0631\u0648\u0639 \u06a9\u0644\u0627\u0633",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 19,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m6-4",
+            "name": "menu06-4",
+            "title": "\u0648\u0631\u0648\u062f \u0628\u0647 \u06a9\u0644\u0627\u0633",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 20,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m7",
+            "name": "menu07",
+            "title": "\u06af\u0632\u0627\u0631\u0634 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 21,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m7-1",
+            "name": "menu07-1",
+            "title": "\u062d\u0636\u0648\u0631 \u0648 \u063a\u06cc\u0627\u0628",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 22,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m7-2",
+            "name": "menu07-2",
+            "title": "\u0646\u0645\u0631\u0627\u062a",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 23,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m7-3",
+            "name": "menu07-3",
+            "title": "\u0627\u0645\u062a\u062d\u0627\u0646\u0627\u062a",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 24,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m8",
+            "name": "menu08",
+            "title": "\u0645\u0634\u062e\u0635\u0627\u062a \u0645\u062f\u0631\u0633\u0647",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 25,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m22",
+            "name": "menu22",
+            "title": "\u0628\u0631\u0646\u0627\u0645\u0647 \u06a9\u0644\u0627\u0633\u06cc",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 26,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m23",
+            "name": "menu23",
+            "title": "\u0628\u0631\u0646\u0627\u0645\u0647 \u0627\u0645\u062a\u062d\u0627\u0646\u06cc",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 27,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m24",
+            "name": "menu24",
+            "title": "\u062f\u0631\u0633 \u0647\u0627",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 28,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m25",
+            "name": "menu25",
+            "title": "\u0646\u062a\u0627\u06cc\u062c \u0627\u0645\u062a\u062d\u0627\u0646\u0627\u062a",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 29,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m26",
+            "name": "menu26",
+            "title": "\u0628\u0627\u0631\u06af\u0630\u0627\u0631\u06cc \u062a\u06a9\u0627\u0644\u06cc\u0641",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.menuitem",
+        "pk": 30,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "code": "m27",
+            "name": "menu26",
+            "title": "\u062a\u06a9\u0627\u0644\u06cc\u0641",
+            "deleted": "b'\\x00'",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601382174502logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601382746757logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601384033561index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 4,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601384098770index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 5,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601384166893index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 6,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601384252130favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 7,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601384362384robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 8,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601384433313logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 9,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo192",
+            "path": "/tmp/1601384544214logo192.png",
+            "type": "image/png",
+            "volume": 5347
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 10,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo192",
+            "path": "/tmp/1601384793188logo192.png",
+            "type": "image/png",
+            "volume": 5347
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 11,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601385514689logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 12,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601385813553logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 13,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601385854457logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 14,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601385969139logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 15,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo192",
+            "path": "/tmp/1601386003956logo192.png",
+            "type": "image/png",
+            "volume": 5347
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 16,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601386040071robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 17,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601386101977robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 18,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601386125896logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 19,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601386156904logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 20,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601386535412logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 21,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601386581574logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 22,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601386977312fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 23,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601387016863fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 24,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601387045110fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 25,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601387052547fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 26,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601387087008favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 27,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601387096917robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 28,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601387101361index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 29,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601387124604logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 30,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601387211384fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 31,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601387301596fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 32,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601387312493index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 33,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601388281565robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 34,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601388293621fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 35,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601388384029robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 36,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601388394062fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 37,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601388447090logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 38,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601448950835favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 39,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601448980881logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 40,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601449018123robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 41,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "fav",
+            "path": "/tmp/1601449028339fav.jpg",
+            "type": "image/jpeg",
+            "volume": 49864
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 42,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601449220540robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 43,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601449323319robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 44,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601449356265favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 45,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601449375861index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 46,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601449454106favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 47,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601449539484index.html",
+            "type": "text/html",
+            "volume": 1798
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 48,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601449631617robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 49,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "logo512",
+            "path": "/tmp/1601449648328logo512.png",
+            "type": "image/png",
+            "volume": 9664
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 50,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "favicon",
+            "path": "/tmp/1601449745747favicon.ico",
+            "type": "image/x-icon",
+            "volume": 3150
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 51,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "robots",
+            "path": "/tmp/1601449823366robots.txt",
+            "type": "text/plain",
+            "volume": 70
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 52,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "index",
+            "path": "/tmp/1601449856060index.tsx",
+            "type": "application/octet-stream",
+            "volume": 1151
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 53,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "App",
+            "path": "/tmp/1601449885305App.js",
+            "type": "application/x-javascript",
+            "volume": 120
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 54,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Image 1",
+            "path": "/tmp/1601450073010Image_1.png",
+            "type": "image/png",
+            "volume": 368317
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 55,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Sibche-Badge-Blue-1@2x",
+            "path": "/tmp/1601450091293Sibche-Badge-Blue-1@2x.png",
+            "type": "image/png",
+            "volume": 22931
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 56,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601450581733Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 57,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "icon-app-googlestore",
+            "path": "/tmp/1601450786970icon-app-googlestore.svg",
+            "type": "image/svg+xml",
+            "volume": 8274
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 58,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601450803381Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 59,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601450839479Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 60,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Path-21426",
+            "path": "/tmp/1601450862124Path-21426.svg",
+            "type": "image/svg+xml",
+            "volume": 818
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 61,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451284659Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 62,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Path-21426",
+            "path": "/tmp/1601451368415Path-21426.svg",
+            "type": "image/svg+xml",
+            "volume": 818
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 63,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451502499Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 64,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Path-21426",
+            "path": "/tmp/1601451618794Path-21426.svg",
+            "type": "image/svg+xml",
+            "volume": 818
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 65,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451648008Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 66,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451823862Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 67,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451919812Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 68,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601451956108Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 69,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601452092637Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 70,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601452145872Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 71,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601452221134Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 72,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601452309076Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 73,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Shape 865",
+            "path": "/tmp/1601452414639Shape_865.svg",
+            "type": "image/svg+xml",
+            "volume": 747
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 74,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601452691242lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 75,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601452895756lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 76,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601453258354lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 77,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601453419029lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 78,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601453991578lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 79,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601454106034lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 80,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601454122679lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 81,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601454595491lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 82,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601454666026lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 83,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "et",
+            "path": "/tmp/1601455001756et.txt",
+            "type": "text/plain",
+            "volume": 0
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 84,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601455434700lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 85,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601455478174lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 86,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "et",
+            "path": "/tmp/1601455502573et.txt",
+            "type": "text/plain",
+            "volume": 0
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 87,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "et",
+            "path": "/tmp/1601455595416et.txt",
+            "type": "text/plain",
+            "volume": 0
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 88,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601455672122lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 89,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "lg",
+            "path": "/tmp/1601455710567lg.jpg",
+            "type": "image/jpeg",
+            "volume": 29351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 90,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "et",
+            "path": "/tmp/1601455724343et.txt",
+            "type": "text/plain",
+            "volume": 0
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 91,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "deploy",
+            "path": "/tmp/1601455733724deploy.txt",
+            "type": "text/plain",
+            "volume": 104
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 92,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "deploy",
+            "path": "/tmp/1601455864197deploy.txt",
+            "type": "text/plain",
+            "volume": 104
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 93,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Debug",
+            "path": "/tmp/1601455887565Debug.txt",
+            "type": "text/plain",
+            "volume": 541
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 94,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Debug",
+            "path": "/tmp/1601455915592Debug.txt",
+            "type": "text/plain",
+            "volume": 541
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 95,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "darsapp",
+            "path": "/tmp/1601455923923darsapp.code-workspace",
+            "type": "application/octet-stream",
+            "volume": 132
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 96,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "et",
+            "path": "/tmp/1601456960181et.txt",
+            "type": "text/plain",
+            "volume": 0
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 97,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Debug",
+            "path": "/tmp/1601456981492Debug.txt",
+            "type": "text/plain",
+            "volume": 541
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 98,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "WhatsApp Image 2020-06-20 at 10",
+            "path": "/tmp/1601558161821WhatsApp_Image_2020-06-20_at_10.26.46.jpeg",
+            "type": "image/jpeg",
+            "volume": 44040
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 99,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "New Text Document",
+            "path": "/tmp/1601795704882New_Text_Document.txt",
+            "type": "text/plain",
+            "volume": 3384
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 100,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "New Text Document",
+            "path": "/tmp/1601796017657New_Text_Document.txt",
+            "type": "text/plain",
+            "volume": 3384
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 101,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "darsappLogo",
+            "path": "/tmp/1601796047725darsappLogo.4c75b680.png",
+            "type": "image/png",
+            "volume": 39344
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 102,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "package-lock",
+            "path": "/tmp/1601823579567package-lock.json",
+            "type": "application/json",
+            "volume": 27
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 103,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "Bonvari-Factors",
+            "path": "/tmp/1601824571210Bonvari-Factors.xlsx",
+            "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "volume": 7930
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 104,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "1",
+            "path": "/tmp/16018336842331.docx",
+            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "volume": 69388
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 105,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "",
+            "path": "/tmp/1601882183114.gitignore",
+            "type": "text/plain",
+            "volume": 351
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 106,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "package",
+            "path": "/tmp/1601882191105package.json",
+            "type": "application/json",
+            "volume": 2381
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 107,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "",
+            "path": "/tmp/1601899355682.env",
+            "type": "application/octet-stream",
+            "volume": 27
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 108,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "package",
+            "path": "/tmp/1601899360489package.json",
+            "type": "application/json",
+            "volume": 2381
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 109,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "New Text Document",
+            "path": "/tmp/1601899437691New_Text_Document.txt",
+            "type": "text/plain",
+            "volume": 3384
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 110,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "darsappLogo",
+            "path": "/tmp/1601899495487darsappLogo.4c75b680.png",
+            "type": "image/png",
+            "volume": 39344
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 111,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "README",
+            "path": "/tmp/1601899645503README.md",
+            "type": "application/octet-stream",
+            "volume": 2136
+        }
+    },
+    {
+        "model": "api.resource",
+        "pk": 112,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "name": "darsappLogo",
+            "path": "/tmp/1601899678294darsappLogo.4c75b680.png",
+            "type": "image/png",
+            "volume": 39344
+        }
+    },
+    {
+        "model": "api.role",
+        "pk": 1,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "deleted": "b'\\x00'",
+            "name": "ADMIN",
+            "title": "\u0627\u062f\u0645\u06cc\u0646",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.role",
+        "pk": 2,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "deleted": "b'\\x00'",
+            "name": "TEACHER",
+            "title": "\u0645\u0639\u0644\u0645",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.role",
+        "pk": 3,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "deleted": "b'\\x00'",
+            "name": "STUDENT",
+            "title": "\u062f\u0627\u0646\u0634 \u0622\u0645\u0648\u0632",
+            "created_by_user": null,
+            "modified_by_user": null
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 1,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 2
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 2,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 3
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 3,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 4
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 4,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 5
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 5,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 6
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 6,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 7
+        }
+    },
+    {
+        "model": "api.roleacctionsgroup",
+        "pk": 7,
+        "fields": {
+            "role": 1,
+            "deleted": null,
+            "acctions_group": 8
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 1,
+        "fields": {
+            "role": 1,
+            "menu": 2,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 2,
+        "fields": {
+            "role": 1,
+            "menu": 3,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 3,
+        "fields": {
+            "role": 1,
+            "menu": 4,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 4,
+        "fields": {
+            "role": 1,
+            "menu": 5,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 5,
+        "fields": {
+            "role": 1,
+            "menu": 6,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 6,
+        "fields": {
+            "role": 1,
+            "menu": 7,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 7,
+        "fields": {
+            "role": 1,
+            "menu": 8,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 8,
+        "fields": {
+            "role": 1,
+            "menu": 9,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 9,
+        "fields": {
+            "role": 1,
+            "menu": 10,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 10,
+        "fields": {
+            "role": 1,
+            "menu": 11,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 11,
+        "fields": {
+            "role": 1,
+            "menu": 12,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 12,
+        "fields": {
+            "role": 1,
+            "menu": 13,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 13,
+        "fields": {
+            "role": 1,
+            "menu": 14,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 14,
+        "fields": {
+            "role": 1,
+            "menu": 15,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 15,
+        "fields": {
+            "role": 1,
+            "menu": 16,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 16,
+        "fields": {
+            "role": 1,
+            "menu": 17,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 17,
+        "fields": {
+            "role": 1,
+            "menu": 20,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 18,
+        "fields": {
+            "role": 1,
+            "menu": 21,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 19,
+        "fields": {
+            "role": 1,
+            "menu": 22,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 20,
+        "fields": {
+            "role": 1,
+            "menu": 23,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 21,
+        "fields": {
+            "role": 1,
+            "menu": 24,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 22,
+        "fields": {
+            "role": 2,
+            "menu": 1,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 23,
+        "fields": {
+            "role": 2,
+            "menu": 25,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 24,
+        "fields": {
+            "role": 2,
+            "menu": 23,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 25,
+        "fields": {
+            "role": 2,
+            "menu": 21,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 26,
+        "fields": {
+            "role": 2,
+            "menu": 30,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 27,
+        "fields": {
+            "role": 3,
+            "menu": 1,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 28,
+        "fields": {
+            "role": 3,
+            "menu": 25,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 29,
+        "fields": {
+            "role": 3,
+            "menu": 26,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 30,
+        "fields": {
+            "role": 3,
+            "menu": 28,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.rolemenu",
+        "pk": 31,
+        "fields": {
+            "role": 3,
+            "menu": 29,
+            "deleted": null
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 676823,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "cgoRCOLzHUlgGqojIvtn",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0631\u06cc\u0627\u0636\u06cc"
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 681246,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "WinrhRCvdcahBKqLcSoz",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0631\u06cc\u0627\u0636\u06cc"
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 681348,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "SfNrVtDADdZkKrDNtogT",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0647\u0646\u0631"
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 684109,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "uVwwgTliLDMtOhUsCpRS",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0631\u06cc\u0627\u0636\u06cc"
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 695477,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "rYQQfEOlLYxWMYDIRhZr",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0647\u0646\u0631"
+        }
+    },
+    {
+        "model": "api.room",
+        "pk": 701928,
+        "fields": {
+            "description": null,
+            "max_users": 100,
+            "name": "WJjHZqOKPiUOZECgYjXX",
+            "op_login_first": "b'\\x01'",
+            "service_id": null,
+            "session_duration": null,
+            "status": null,
+            "title": "\u0647\u0646\u0631"
+        }
+    },
+    {
+        "model": "api.schedule",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x01'",
+            "modified_by_user": null,
+            "break_duration": 20,
+            "class_id": 1,
+            "degree": 3,
+            "level": 10,
+            "owner_id": null,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 120,
+            "start_time": "08:30",
+            "teacher_id": null
+        }
+    },
+    {
+        "model": "api.schedule",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "break_duration": 15,
+            "class_id": 2,
+            "degree": 3,
+            "level": 11,
+            "owner_id": null,
+            "school_id": 1,
+            "section_count": 2,
+            "section_duration": 90,
+            "start_time": "08:30",
+            "teacher_id": null
+        }
+    },
+    {
+        "model": "api.schedule",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "break_duration": 20,
+            "class_id": 3,
+            "degree": 3,
+            "level": 12,
+            "owner_id": null,
+            "school_id": 1,
+            "section_count": 4,
+            "section_duration": 120,
+            "start_time": "08:30",
+            "teacher_id": null
+        }
+    },
+    {
+        "model": "api.schedulesections",
+        "pk": 1,
+        "fields": {
+            "schedule": 1,
+            "sections": 1
+        }
+    },
+    {
+        "model": "api.schedulesections",
+        "pk": 2,
+        "fields": {
+            "schedule": 2,
+            "sections": 3
+        }
+    },
+    {
+        "model": "api.schedulesections",
+        "pk": 3,
+        "fields": {
+            "schedule": 3,
+            "sections": 4
+        }
+    },
+    {
+        "model": "api.school",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "address": "2233",
+            "code": "234",
+            "gender": 1,
+            "info_completed": null,
+            "logo": "",
+            "name": "\u0634\u0647\u06cc\u062f \u0645\u0637\u0647\u0631\u06cc",
+            "office": "",
+            "phone": "342444",
+            "region": "8",
+            "status": "",
+            "zip_code": "4433222"
+        }
+    },
+    {
+        "model": "api.schooldegrees",
+        "pk": 1,
+        "fields": {
+            "school": 1,
+            "degrees": 2
+        }
+    },
+    {
+        "model": "api.schooldegrees",
+        "pk": 2,
+        "fields": {
+            "school": 1,
+            "degrees": 3
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 1,
+        "fields": {
+            "school": 1,
+            "levels": 7
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 2,
+        "fields": {
+            "school": 1,
+            "levels": 8
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 3,
+        "fields": {
+            "school": 1,
+            "levels": 9
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 4,
+        "fields": {
+            "school": 1,
+            "levels": 10
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 5,
+        "fields": {
+            "school": 1,
+            "levels": 11
+        }
+    },
+    {
+        "model": "api.schoollevels",
+        "pk": 6,
+        "fields": {
+            "school": 1,
+            "levels": 12
+        }
+    },
+    {
+        "model": "api.section",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 1,
+            "class_type": 3,
+            "day_of_week": 1,
+            "description": null,
+            "end_time": "10:30:00",
+            "section_order": 0,
+            "selected_lesson": 1,
+            "start_time": "08:30:00",
+            "status": 2,
+            "teacher_id": 3
+        }
+    },
+    {
+        "model": "api.section",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x01'",
+            "modified_by_user": null,
+            "class_id": 2,
+            "class_type": 3,
+            "day_of_week": 1,
+            "description": null,
+            "end_time": "10:00:00",
+            "section_order": 0,
+            "selected_lesson": 1,
+            "start_time": "08:30:00",
+            "status": 3,
+            "teacher_id": 3
+        }
+    },
+    {
+        "model": "api.section",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 2,
+            "class_type": 3,
+            "day_of_week": 1,
+            "description": null,
+            "end_time": "11:45:00",
+            "section_order": 1,
+            "selected_lesson": 1,
+            "start_time": "10:15:00",
+            "status": 3,
+            "teacher_id": 3
+        }
+    },
+    {
+        "model": "api.section",
+        "pk": 4,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_id": 3,
+            "class_type": 3,
+            "day_of_week": 4,
+            "description": null,
+            "end_time": "10:30:00",
+            "section_order": 0,
+            "selected_lesson": 2,
+            "start_time": "08:30:00",
+            "status": 2,
+            "teacher_id": 7
+        }
+    },
+    {
+        "model": "api.sectionlessons",
+        "pk": 1,
+        "fields": {
+            "section": 1,
+            "lessons": 1
+        }
+    },
+    {
+        "model": "api.sectionlessons",
+        "pk": 2,
+        "fields": {
+            "section": 2,
+            "lessons": 1
+        }
+    },
+    {
+        "model": "api.sectionlessons",
+        "pk": 3,
+        "fields": {
+            "section": 3,
+            "lessons": 1
+        }
+    },
+    {
+        "model": "api.sectionlessons",
+        "pk": 4,
+        "fields": {
+            "section": 4,
+            "lessons": 2
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5138104,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0645\u062c\u06cc\u062f \u0639\u0634\u0642\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 3,
+            "username": "darsapp-0558729762"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5138133,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0645\u0647\u0631\u0627\u0646 \u06af\u0646\u062c\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 4,
+            "username": "darsapp-0476152674"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5175310,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0627\u0633\u0645\u0627\u0639\u06cc\u0644 \u0639\u0627\u0628\u062f\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 5,
+            "username": "darsapp-2560090856"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5175695,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0645\u0633\u0639\u0648\u062f \u0634\u0639\u0628\u0627\u0646",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 6,
+            "username": "darsapp-9999999999"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5175707,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0645\u06cc\u0644\u0627\u062f \u067e\u0627\u0634\u0627\u06cc\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 7,
+            "username": "darsapp-1234567890"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5214491,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u0645\u0647\u062f\u06cc \u0628\u0646\u0648\u0627\u0631\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 8,
+            "username": "darsapp-1753616832"
+        }
+    },
+    {
+        "model": "api.skyuser",
+        "pk": 5263263,
+        "fields": {
+            "is_public": "b'\\x00'",
+            "nickname": "\u062d\u0633\u0646 \u0627\u0635\u063a\u0631\u06cc",
+            "password": "Darsapp-54321",
+            "status": 1,
+            "user_id": 9,
+            "username": "darsapp-9876543210"
+        }
+    },
+    {
+        "model": "api.timeinterval",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_type": 3,
+            "day_of_week": "saturday",
+            "end_time": "10:30:00",
+            "start_time": "08:30:00",
+            "teacher_id": 3,
+            "teacher_timeline_id": 1
+        }
+    },
+    {
+        "model": "api.timeinterval",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_type": 3,
+            "day_of_week": "saturday",
+            "end_time": "12:30:00",
+            "start_time": "10:30:00",
+            "teacher_id": 3,
+            "teacher_timeline_id": 1
+        }
+    },
+    {
+        "model": "api.timeinterval",
+        "pk": 3,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_type": 3,
+            "day_of_week": "sunday",
+            "end_time": "12:30:00",
+            "start_time": "10:30:00",
+            "teacher_id": 3,
+            "teacher_timeline_id": 1
+        }
+    },
+    {
+        "model": "api.timeinterval",
+        "pk": 4,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_type": 3,
+            "day_of_week": "sunday",
+            "end_time": "10:30:00",
+            "start_time": "08:30:00",
+            "teacher_id": 3,
+            "teacher_timeline_id": 1
+        }
+    },
+    {
+        "model": "api.timeinterval",
+        "pk": 5,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "class_type": 3,
+            "day_of_week": "tuesday",
+            "end_time": "12:30:00",
+            "start_time": "10:30:00",
+            "teacher_id": 7,
+            "teacher_timeline_id": 2
+        }
+    },
+    {
+        "model": "api.timelinefreetimeintervals",
+        "pk": 1,
+        "fields": {
+            "time_line": 1,
+            "free_time_intervals": 1
+        }
+    },
+    {
+        "model": "api.timelinefreetimeintervals",
+        "pk": 2,
+        "fields": {
+            "time_line": 1,
+            "free_time_intervals": 2
+        }
+    },
+    {
+        "model": "api.timelinefreetimeintervals",
+        "pk": 3,
+        "fields": {
+            "time_line": 1,
+            "free_time_intervals": 3
+        }
+    },
+    {
+        "model": "api.timelinefreetimeintervals",
+        "pk": 4,
+        "fields": {
+            "time_line": 1,
+            "free_time_intervals": 4
+        }
+    },
+    {
+        "model": "api.timelinefreetimeintervals",
+        "pk": 5,
+        "fields": {
+            "time_line": 2,
+            "free_time_intervals": 5
+        }
+    },
+    {
+        "model": "api.timelinelessons",
+        "pk": 1,
+        "fields": {
+            "time_line": 1,
+            "lessons": 1
+        }
+    },
+    {
+        "model": "api.timelinelessons",
+        "pk": 2,
+        "fields": {
+            "time_line": 2,
+            "lessons": 2
+        }
+    },
+    {
+        "model": "api.timeline",
+        "pk": 1,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "teacher_id": 3
+        }
+    },
+    {
+        "model": "api.timeline",
+        "pk": 2,
+        "fields": {
+            "created_by_user": null,
+            "deleted": "b'\\x00'",
+            "modified_by_user": null,
+            "teacher_id": 7
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0627\u062f\u0645\u06cc\u0646",
+            "gender": null,
+            "job": "\u0645\u062f\u06cc\u0631\u06cc\u062a \u0633\u06cc\u0633\u062a\u0645",
+            "last_name": "\u0633\u06cc\u0633\u062a\u0645",
+            "level": null,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2a$10$A2WLzoQGS1zI21YgiIWBde3bXuanRtRbt9Q0KlqrpyKcm/4HrnoAq",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 1,
+            "school_id": 1,
+            "state": null,
+            "username": "admin",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 3,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "1986-07-05T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0645\u062c\u06cc\u062f",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u0639\u0634\u0642\u06cc",
+            "level": null,
+            "mobile_no": "09027584046",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "0558729762",
+            "parent_id": null,
+            "password": "$2a$10$CKpFPQiLAFawbdcfY30DFeNuvcNf2woDkDmxs9LLJHhMDWi5USWvi",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "0558729762",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 4,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "1985-09-20T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0645\u0647\u0631\u0627\u0646",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u06af\u0646\u062c\u06cc",
+            "level": 10,
+            "mobile_no": "09027584046",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "0476152674",
+            "parent_id": null,
+            "password": "$2a$10$gbQzTxWdR9CO88OUWi4QZumkDiDWzes.Y09zwOTpfW3nhzC0da086",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "0476152674",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 1
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 5,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "2016-09-30T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0627\u0633\u0645\u0627\u0639\u06cc\u0644",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u0639\u0627\u0628\u062f\u06cc",
+            "level": 12,
+            "mobile_no": "09332644862",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "2560090856",
+            "parent_id": null,
+            "password": "$2a$10$F3MYCgqera3V5aV.sdom7.AGSW/AKtGiMhHExOPl482AwtdzBBy/S",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "2560090856",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 1
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 6,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "1971-07-27T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0645\u0633\u0639\u0648\u062f",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u0634\u0639\u0628\u0627\u0646",
+            "level": 12,
+            "mobile_no": "09027584046",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "9999999999",
+            "parent_id": null,
+            "password": "$2a$10$8Fggz.vXlbO2a8GBXpgDU.WD1.YuYoB1ZvXn8eUvAfExeuXc5V1MG",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "9999999999",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 7,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "2016-09-30T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0645\u06cc\u0644\u0627\u062f",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u067e\u0627\u0634\u0627\u06cc\u06cc",
+            "level": null,
+            "mobile_no": "09332644862",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1234567890",
+            "parent_id": null,
+            "password": "$2a$10$YFZx0qhXUbuWImle0.DkgehFFT2GkzRhAVJrdro5.fcCNxYBr0UP.",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "1234567890",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 8,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "2016-10-03T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u0645\u0647\u062f\u06cc",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u0628\u0646\u0648\u0627\u0631\u06cc",
+            "level": null,
+            "mobile_no": "09124502869",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1753616832",
+            "parent_id": null,
+            "password": "$2a$10$4JyjHF6uKT8luTzxlpjrTeuWUTU7Ci3J61Dtr98nCeLm6kLosrj42",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "1753616832",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 9,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": "2016-10-03T03:30:00Z",
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "\u062d\u0633\u0646",
+            "gender": 1,
+            "job": null,
+            "last_name": "\u0627\u0635\u063a\u0631\u06cc",
+            "level": null,
+            "mobile_no": "09124502869",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "9876543210",
+            "parent_id": null,
+            "password": "$2a$10$4YVT9.TFGflLM02JM4CUlez6t5cQ5/V8LG3Fn5k8Lx9fkW1GFONPO",
+            "phone_no": null,
+            "profile_completed": "b'\\x00'",
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "9876543210",
+            "deleted": "b'\\x00'",
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 10,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": null,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "a1",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 11,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": null,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "a2",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 12,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": null,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "a3",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 13,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": null,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": null,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 2,
+            "school_id": 1,
+            "state": null,
+            "username": "a4",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": null
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 20,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": 3,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": 12,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "b1",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 21,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": 3,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": 12,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "b2",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 22,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": 3,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": 12,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "b3",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 23,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": 3,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": 12,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "b4",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 24,
+        "fields": {
+            "created_by_user_id": null,
+            "modified_by_user_id": null,
+            "address": null,
+            "birth_date": null,
+            "birth_place": null,
+            "cert_code": null,
+            "city": null,
+            "degree": 3,
+            "education_state": null,
+            "email": null,
+            "father_name": null,
+            "father_phone": null,
+            "first_name": "first",
+            "gender": null,
+            "job": null,
+            "last_name": "last",
+            "level": 12,
+            "mobile_no": "09121234567",
+            "mother_name": null,
+            "mother_phone": null,
+            "national_code": "1111111111",
+            "parent_id": null,
+            "password": "$2b$12$vcVigxpy97qHFekew8xFKewGV424ObOEonPmxXVEisuSOwP4cwGMG",
+            "phone_no": null,
+            "profile_completed": null,
+            "profile_image": null,
+            "relationship": null,
+            "role": 3,
+            "school_id": 1,
+            "state": null,
+            "username": "b5",
+            "deleted": null,
+            "zip_code": null,
+            "created_by_user": null,
+            "modified_by_user": null,
+            "field": 3
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 1,
+        "fields": {
+            "user": 4,
+            "my_classes_id": 1
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 2,
+        "fields": {
+            "user": 5,
+            "my_classes_id": 2
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "my_classes_id": 1
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 4,
+        "fields": {
+            "user": 3,
+            "my_classes_id": 2
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 5,
+        "fields": {
+            "user": 6,
+            "my_classes_id": 3
+        }
+    },
+    {
+        "model": "api.usermyclassesid",
+        "pk": 6,
+        "fields": {
+            "user": 7,
+            "my_classes_id": 3
+        }
+    }
+]

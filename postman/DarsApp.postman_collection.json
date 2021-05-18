@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "784ab396-1322-4e20-bb9a-6e49ee8f3bc5",
+		"name": "DarsApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "server test (time)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/django/time",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"django",
+						"time"
+					]
+				},
+				"description": "respons is \"now\" time for deploy test"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
